@@ -16,5 +16,10 @@ fun main() {
         .send(request, BodyHandlers.ofString())
 
     val json = response.body()
-    println(json)
+
+    val meuJogo = Jogo()
+    meuJogo.titulo = "LEGO Batman"
+    meuJogo.capa = "https:\\/\\/cdn.fanatical.com\\/production\\/product\\/400x225\\/105f34ca-7757-47ad-953e-7df7f016741e.jpeg"
+
+    println(meuJogo)
 }
