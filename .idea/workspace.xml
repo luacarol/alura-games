@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d51bab85-1aa3-4eb7-a0e1-1d912c62e1d3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/InfoJogo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/InfoApiShark.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/InfoJogo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/InfoJogo.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Jogo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Jogo.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
+        <option value="Kotlin Data Class" />
       </list>
     </option>
   </component>
@@ -81,7 +82,7 @@
       <option name="presentableId" value="Default" />
       <updated>1718367811855</updated>
       <workItem from="1718367812902" duration="3938000" />
-      <workItem from="1718385771824" duration="2614000" />
+      <workItem from="1718385771824" duration="3052000" />
     </task>
     <servers />
   </component>
