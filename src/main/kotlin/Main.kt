@@ -1,5 +1,6 @@
 package org.example
 
+import com.google.gson.Gson
 import java.net.URI
 import java.net.http.HttpClient
 import java.net.http.HttpRequest
@@ -16,10 +17,10 @@ fun main() {
         .send(request, BodyHandlers.ofString())
 
     val json = response.body()
+    println(json)
 
-    val meuJogo = Jogo(
-        "LEGO Batman",
-        "https:\\/\\/cdn.fanatical.com\\/production\\/product\\/400x225\\/105f34ca-7757-47ad-953e-7df7f016741e.jpeg"
-    )
+    var gson = Gson()
+
+    var meuJogo = gson.fromJson(json, InfoJogo::class.java)
     println(meuJogo)
 }
